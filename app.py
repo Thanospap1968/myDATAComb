@@ -25,7 +25,7 @@ if st.session_state.typoi_box != None:
         column_order=("ΠΑΡΑΣΤΑΤΙΚΟ", "ΚΑΤΗΓΟΡΙΑ"),
         column_config={
             "ΠΑΡΑΣΤΑΤΙΚΟ": st.column_config.Column(
-                width="medium"
+                width="large"
             ),
             "ΚΑΤΗΓΟΡΙΑ": st.column_config.Column(
                 width="large"
